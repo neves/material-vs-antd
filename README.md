@@ -32,7 +32,7 @@ http://material-vs-antd.surge.sh/
 Feature              | Material | Ant
 ---------------------|----------|----
 Documentation        | X        |
-Comunity             | X        |
+Community            | X        |
 Runtime Style        | X        |
 Easier Customization | X        |
 Bundle Size (TODO)   |          |
