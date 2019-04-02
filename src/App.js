@@ -1,5 +1,6 @@
 import React from 'react'
+import MaterialUI from './mui'
 
-const App = () => <h1>Material vs AntD</h1>
+const App = () => <MaterialUI />
 
 export default App
