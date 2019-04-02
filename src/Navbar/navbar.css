@@ -1,0 +1,19 @@
+nav.main {
+  margin: 5px;
+  text-align: center;
+  font-family: Roboto;
+}
+
+nav.main a {
+  padding: 5px;
+  text-decoration: none;
+  color: gray;
+}
+
+nav.main a:hover {
+  color: black;
+}
+
+nav.main a.active {
+  border-bottom: 1px solid gray;
+}
