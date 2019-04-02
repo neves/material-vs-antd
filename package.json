@@ -13,7 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "analyze": "source-map-explorer 'build/static/js/*.js'"
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "deploy": "surge ./build/ material-vs-antd.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,6 +26,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "source-map-explorer": "^1.8.0"
+    "source-map-explorer": "^1.8.0",
+    "surge": "^0.20.3"
   }
 }
