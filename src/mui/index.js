@@ -3,28 +3,22 @@ import LoginForm from './LoginForm'
 import MuiThemeProviderDark from './themes/MuiThemeProviderDark'
 import MuiThemeProviderLight from './themes/MuiThemeProviderLight'
 import { CssBaseline, Grid } from '@material-ui/core'
+import CenterLayout from './CenterLayout'
 
 const MaterialUI = props => {
   return (
-    <Grid
-      container
-      justify="center"
-      alignItems="center"
-      style={{ minHeight: '100vh' }}
-    >
-      <Grid item xs={12} sm={8} md={5} lg={4} xl={3}>
-        <CssBaseline />
-        <MuiThemeProviderLight>
-          <LoginForm />
-        </MuiThemeProviderLight>
+    <CenterLayout>
+      <CssBaseline />
+      <MuiThemeProviderLight>
+        <LoginForm />
+      </MuiThemeProviderLight>
 
-        <br />
+      <br />
 
-        <MuiThemeProviderDark>
-          <LoginForm />
-        </MuiThemeProviderDark>
-      </Grid>
-    </Grid>
+      <MuiThemeProviderDark>
+        <LoginForm />
+      </MuiThemeProviderDark>
+    </CenterLayout>
   )
 }
 

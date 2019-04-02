@@ -7,5 +7,10 @@ export default merge(base, {
     primary: {
       main: '#9FA8DA'
     }
+  },
+  props: {
+    MuiButtonBase: {
+      disableRipple: false
+    }
   }
 })
