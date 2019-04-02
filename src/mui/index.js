@@ -1,7 +1,7 @@
 import { CssBaseline } from '@material-ui/core'
 import React from 'react'
 import CenterLayout from './CenterLayout'
-import LoginForm from './LoginForm'
+import SignupForm from './SignupForm'
 import MuiThemeProviderDark from './themes/MuiThemeProviderDark'
 import MuiThemeProviderLight from './themes/MuiThemeProviderLight'
 
@@ -10,13 +10,13 @@ const MaterialUI = props => {
     <CenterLayout>
       <CssBaseline />
       <MuiThemeProviderLight>
-        <LoginForm />
+        <SignupForm />
       </MuiThemeProviderLight>
 
       <br />
 
       <MuiThemeProviderDark>
-        <LoginForm />
+        <SignupForm />
       </MuiThemeProviderDark>
     </CenterLayout>
   )
