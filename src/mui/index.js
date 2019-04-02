@@ -1,9 +1,9 @@
+import { CssBaseline } from '@material-ui/core'
 import React from 'react'
+import CenterLayout from './CenterLayout'
 import LoginForm from './LoginForm'
 import MuiThemeProviderDark from './themes/MuiThemeProviderDark'
 import MuiThemeProviderLight from './themes/MuiThemeProviderLight'
-import { CssBaseline, Grid } from '@material-ui/core'
-import CenterLayout from './CenterLayout'
 
 const MaterialUI = props => {
   return (
