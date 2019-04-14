@@ -2,6 +2,9 @@
   "name": "material-vs-antd",
   "version": "0.1.0",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "react": "^16.8.6",

@@ -36,3 +36,7 @@ Community            | X        |
 Runtime Style        | X        |
 Easier Customization | X        |
 Bundle Size (TODO)   |          |
+
+### Sample monorepo using yarn workspaces
+
+- https://github.com/wixplosives/sample-monorepo
